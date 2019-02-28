@@ -3,18 +3,20 @@
     "noEmit": true,
     "strict": true,
     "jsx": "react",
-    "target": "esnext",
-    "module": "esnext",
+    "target": "es6",
+    "module": "commonjs",
     "moduleResolution": "node",
-    "esModuleInterop": true,
+    "declaration": true,
     "rootDir": "./",
     "baseUrl": "./",
     "paths": {
-      "*": ["node_modules", "packages"]
-    }
+      "*": ["./node_modules", "packages"]
+    },
+    "typeRoots": ["./typings"],
+    "types": ["node", "jest"]
   },
   "include": ["packages"],
-  "exclude": ["node_modules"],
+  "exclude": ["./node_modules"],
   "scripts": {
     "prebuild": "tsc"
   },

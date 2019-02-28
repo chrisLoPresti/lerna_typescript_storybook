@@ -1,0 +1,17 @@
+{
+  "name": "@monorepo/input",
+  "version": "1.0.0",
+  "description": "Input Component",
+  "main": "/dist/index.tsx",
+  "typings": "/dist/index.d.ts",
+  "license": "MIT",
+  "private": true,
+  "peerDependencies": {
+    "react": "^16.8.3"
+  },
+  "dependencies": {
+    "@storybook/addon-knobs": "^4.1.13",
+    "@storybook/react": "^4.1.13"
+  },
+  "devDependencies": {}
+}
