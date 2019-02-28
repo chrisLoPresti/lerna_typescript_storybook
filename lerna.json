@@ -1,0 +1,15 @@
+{
+  "packages": ["packages/*"],
+  "version": "independent",
+  "useWorkspaces": true,
+  "npmClient": "yarn",
+  "command": {
+    "publish": {
+      "conventionalCommits": true,
+      "registry": "",
+      "access": "public",
+      "npmClient": "yarn",
+      "allowBranch": ["develop", "feature/*"]
+    }
+  }
+}
